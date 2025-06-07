@@ -52,7 +52,7 @@ const SearchBar: React.FC = () => {
           placeholder="Search songs, movies, languages..."
           value={query}
           onChange={handleSearch}
-          className="pl-10 pr-10 py-2 w-64 rounded-full border border-gray-300 focus:ring-2 focus:ring-primary-400 focus:border-transparent"
+          className="pl-10 pr-10 py-2 w-100 rounded-full border border-gray-300 focus:ring-2 focus:ring-primary-400 focus:border-transparent"
         />
         <Search 
           size={18} 

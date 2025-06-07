@@ -1,14 +1,15 @@
 import { Language, Movie, Song } from './types';
 
 export const languages: Language[] = [
-  { id: 'english', name: 'English' },
-  { id: 'hindi', name: 'Hindi' },
-  { id: 'french', name: 'French' },
-  { id: 'bengali', name: 'Bengali' },
+  { id: 'telugu', name: 'Telugu' },
   { id: 'tamil', name: 'Tamil' },
+  { id: 'hindi', name: 'Hindi' },
+  { id: 'bengali', name: 'Bengali' },
   { id: 'Kannada', name: 'Kannada' },
   { id: 'malayalam', name: 'Malayalam' },
-  { id: 'telugu', name: 'Telugu' }
+  { id: 'english', name: 'English' },
+  { id: 'french', name: 'French' },
+  {id: 'others', name: 'Others'}
 ];
 
 export const movies: Movie[] = [

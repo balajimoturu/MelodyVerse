@@ -10,4 +10,4 @@ createRoot(document.getElementById('root')!).render(
 );
 
 
-//TO START APP: [npm run dev] OR [npm start]
+//TO START APP: [npm run dev] OR [npm start] 

@@ -17,6 +17,7 @@ const getImageForTitle = (title: string) => {
     //case 'hindi': return '/images/hindi.jpg';
     case 'bengali': return 'https://static-gi.asianetnews.com/images/01d5xyn5h8e8qgdqcp9199x2e2/Bengali-actress.jpg';
     case 'kannada': return 'https://images.indianexpress.com/2024/03/Puneeth-Rajkumar-edited.jpg?w=414';
+    case 'punjabi': return 'https://res.cloudinary.com/jerrick/image/upload/v1732421301/6742a6b5e8a6ab001d144dca.jpg'
     case 'malayalam': return 'https://www.onmanorama.com/content/dam/mm/en/entertainment/music/images/2015/Dec/21/charlie-dulquer-salmaan-new-song-gopi-sunder.jpg';
     case 'english': return 'https://media.pitchfork.com/photos/5929c5495e6ef95969323a9e/master/pass/c42867cb.jpg';
     case 'french': return 'https://static.fnac-static.com/multimedia/FR/Images_Produits/FR/fnac.com/Visual_Principal_340/2/3/8/9782914333832/tsp20121001071405/Fais-comme-l-oiseau.jpg';

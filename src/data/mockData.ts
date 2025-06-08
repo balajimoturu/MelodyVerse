@@ -6,6 +6,7 @@ export const languages: Language[] = [
   { id: 'hindi', name: 'Hindi' },
   { id: 'bengali', name: 'Bengali' },
   { id: 'Kannada', name: 'Kannada' },
+  { id: 'punjabi', name: 'Punjabi'},
   { id: 'malayalam', name: 'Malayalam' },
   { id: 'english', name: 'English' },
   { id: 'french', name: 'French' },
@@ -43,6 +44,18 @@ export const movies: Movie[] = [
     languageId: 'hindi',
     imageUrl: 'https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
+  {
+    id: 'gudumba-shankar',
+    name: 'Gudumba Shankar',
+    languageId: 'telugu',
+    imageUrl: 'https://assets-in.bmscdn.com/discovery-catalog/events/et00367786-namtpyxrsj-landscape.jpg',
+  },
+  {
+    id: 'vijai-bulganin',
+    name: 'Vijai Bulganin',
+    languageId: 'telugu',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nHhvUO7RjYBvlwHr0pFajvlnuF4nAFzHJg&s',
+  },
 ];
 
 export const songs: Song[] = [
@@ -74,8 +87,56 @@ export const songs: Song[] = [
     id: 'tum-ho',
     name: 'Tum Hooo',
     movieId: 'rockstar',
-    youtubeId: 'KwiDJclWo44',
-    lyrics: `Tum ho toh gaata hai dil\nTum ho toh hai sab haasil\nTum ho toh jeetay hum\nTum ho toh jeetay hum\n\nTum ho paas apne\nYun lamhon mein\nToh har ahat se bhi kehta hai yeh dil\nTum ho toh gaata hai dil\nTum ho toh hai sab haasil\nTum ho toh jeetay hum\nTum ho toh jeetay hum\n\nDil meharbaan hai\nIski aadat hai\nHar ahat se mohabbat hai\nAanchal jab jab uthta hai\nKya khoob lagti ho\nBanno tumhari kasam\nTum ho paas apne\nYun lamhon mein\nToh har ahat se bhi kehta hai yeh dil\n\nTum ho toh gaata hai dil\nTum ho toh hai sab haasil\nTum ho toh jeetay hum\nTum ho toh jeetay hum`,
+    youtubeId: 'HIWZ07pSme8',
+    lyrics: `Oooh Ho…\nTum Ho\nTum Ho Paas Mere\nSaath Mere Ho\nTum Yun\nJitna Mehsoos Karoon Tumko\nUtna Hi Paa Bhi Loon\nTum Ho Mere Liye\nMere Liye Ho Tum Yun\nKhud Ko Main Haar Gaya\nTum Ko, Tumko Main Jeeta Hoon\nOooh Ho…\nTum Ho\nAhmmm…\nAaah Haa Aa…\nKahin Se.. Kahin Ko.. Bhi\nAao Bewajah Chale\nPoochhe Bina Kisi Se\nHum Mile\nBandishein Naa Rahi Koi Baaqi\nTum Ho\nTum Ho Paas Mere\nSaath Mere Ho Tum Yun\nJitna Mehsoos Karooon Tumko\nUtna Hi Paa Bhi Loon\nOoooh Ho Ho…\nKis Tarah Chheenega Aa\nMujh Se Ye Jahaan Tumhe\nTum Bhi Ho Main\nKya Fiqar Ab Humein\nTum Ho Mere Liye\nMere Liye Ho Tum Yun\nKhud Ko Main Haar Gaya\nTum Ko, Tumko Main Jeeta Hoon\nOoooh Hoo Ho…\nHoo Aa….`,
     imageUrl: 'https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
+  {
+    id: 'chiguraku-chatu',
+    name: 'Chiguraku Chatu',
+    movieId: 'gudumba-shankar',
+    youtubeId: '1zjhZUJwO40', // YouTube ID not available from sources
+    lyrics: `Chiguraaku chaatu chilakaa...ee alajadi premegaa\nAlavaatu ledhu ganuka...madhi suluvuga nammadhugaa\nChiguraaku chaatu chilakaa...thanu nadavadha dheemagaa\nAnukoni daari ganuka...ee thikama thappadu gaa\nThanu kuudaa naalaagaa...anukontee melegaa\nAithe adhi theliyanidhe...adugu padadhugaa\nSarikothagaa naavanka...chuusthundee chitramgaa\nEmaindho spashtangaa...bayata padadhugaa\nCheppaku antu Cheppamantu...chachchi thelenaa\nThappanukuntu thappadantu...tharkamaagenaa\nSangathi chuustu jaali vestoo...kadhalalekunna\nThelani guttu thenepattu...kadhapalekunnaa\nVonikE naa pedavullo...thonikee thadipilupedho\nNaake sariggaa inka teliyakunnadhi\nAa vainam mounamlo munigi unnadhi\nChiguraaku chaatu chilakaa...ee alajadi premegaa\nAnukoni dhaari ganuka...ee thikama thappadhugaa\nEkkadinuncho madhura gaanam...madhini meetindhi\nIkkadi nunchee nee prayaanam...modalu antondhi\nGala gala veechE pilla gaali...endhukaagindhi\nKompaloo Munche.... Toofanochche... Soochenemoondee\nVere Edo Lokam... Chere Oohala Vegam\nEdho Theeyanee Maikam... Penchutunadee\nDhare Theliyanee Dooram.... Teere Telapanee Teeram\nThanalo Kalavaramedo.... Repthunadee\nChiguraku Chatu Cheelaka... Ee Alagadee Premega\nAlavatu Ledhu Ganuka.... Madee Suluvuga Namadhuga\nChiguraku Chatu Cheelaka.... Tanoo Nadavada Dheemaga\nAnukonoo Daree Ganooka.... Ee Teekama Tapadoo Ga\nThanu Kooda Nalaga.... Anukonte Melega\nAyite Adee Thelaneede.... Adugu Padadhuga\nSareekotthaga Navanka.... Choosthunde Chithramga\nEmayindo Spashtamga... Bayata Padadhuga...`, 
+    imageUrl: 'https://pbs.twimg.com/media/E03q4ONVgAkszj9.jpg', 
+  },
+  {
+    id: 'chilakamma',
+    name: 'Chilakamma',
+    movieId: 'gudumba-shankar',
+    youtubeId: 'zGmaQqMK2Qw', // YouTube ID not available from sources
+    lyrics: `Chilakamma Mukkuki Dhonda Panduki Enado Raasi Pettundhi\nKaakamma Moothiki Kaakarakaayaki Aanaade Raasi Pettundhi\nAase Unte Anto Into Andhenandi\nMari Raase Unte Antaa Sontham Ayyenandi\nAa Veera Brahmam Aanaadidhe Annaadandi\nMana Para Brahmam Malli Antu Unnaadhandi\nUndhoy Raasi Ledoy Raaji\nChilakamma Mukkuki Dhonda Panduki Enado Raasi Pettundhi\nKaakamma Moothiki Kaakarakaayaki Aanaade Raasi Pettundhi\nSannaye Viriginaa Aa Dole Pagilinaa Ayye Pellaagunaa Raasunte\nPandhille Koolinaa Bandhuvule Poyinaa Ayye Pellaaganaa Raase Unte\nChalle Akshinthalu Nippule Ayinaa Pellaagadhu Raase Unte\nMello Poomaalalu Paamule Ayinaa Pellaagadhu Raase Unte\nUndhoy Raasi Oddoy Pechi\nChilakamma Mukkuki Dhonda Panduki Enado Raasi Pettundhi\nKaakamma Moothiki Kaakarakaayaki Aanaade Raasi Pettundhi\nThikkanne Vachchinaa Yarranne Vachchinaa Jarige Kadha Maarunaa Raasunte\nGurude Bodhinchinaa Varude Paatinchinaa Jarige Kadha Maarunaa Raasunte\nSimham O Pakka Nakka O Pakka Kadha Maaradhu Raase Unte\nPellam O Pakka Pallem O Pakka Kadha Maaradhu Raase Unte\nUndhoy Raasi Brathukee Chiichi\nAase Unte Anto Into Andhenandi\nMari Raase Unte Antaa Sontham Ayyenandi\nAa Veera Brahmam Aanaadidhe Annaadandi\nMana Para Brahmam Malli Antu Unnaadhandi\nUndhoy Raasi Ledoy Raaji`,
+    imageUrl: 'https://i.ytimg.com/vi/SZJOUmkCUco/maxresdefault.jpg', // Vibrant, music-themed
+  },
+  {
+    id: 'chitti-nadumune',
+    name: 'Chitti Nadumune',
+    movieId: 'gudumba-shankar',
+    youtubeId: 'zK1BQk0L-5U',
+    lyrics: `Chitti Nadumune Choosthunnaa… Chitrahimsalo Chasthunnaa\nKantapadadhu Ika Edhuremunnaa…\nChuttupakkalemavuthunnaa… Gurthupattane Lekunnaa\nChevina Padadhu Evaremantunnaa…\nNadume Udumai… Nanu Pattukunte Jaana\nAduge Padadhe… Ika Etupodhaamannaa\nAa Madathalo Mahimemito… Vethakaali Thongi Choosainaa\nAa Nunupulo Padhunemito… Thelchaali Thappu Cheshainaa\nCome On… Come On\nCome On… Come On\nCome On… Come On\nCome On… Come On\nOri Aa Devudaa..!\nI Think I Did It Again\nI Think I Seen It Again…\nYour Nadumuni Choosi Fruity Girl\nI Am Losing All My Concentration In This World\nI Am Unable To Suttay Malaitay Girl\nNow Look What I Am Running Away With You Pearl\nIf You Are My Yenki…\nI Am Your Nayudu Baava… Nayudu Baava\nCome On… Come On\nCome On… Come On\nCome On… Come On\nCome On… Come On\nNanganaachilaa Nadumoopi… Nalla Thaachulaa Jada Choopi\nThaaki Choosthe Kaatesthandhi…\nCheemalaaga Thega Kuduthundhi… Paamulaaga Pagabaduthundhi\nKallu Moosina Edhare Undhee…\nTheeraa Choosthe Nalakantha Nallapoosa…\nAaraa Theesthe Nannamilese Aasha…\nKannerragaa Kandhindhilaa… Nadumompullo Naligi\nEe Thikamaka Theledhelaa… Aa Sompullo Munigi\nOri Aa Devudaa..!\nI Think I Did It Again\nI Think I Seen It Again…\nEnni Thittinaa Vintaane… Kaala Thinnaninaa Padathaane\nNadumu Thadamani Nannokasaari…\nUrimi Choosinaa Okene… Ure Vesinaa Kaadhanane\nThodimi Chidhimi Chebuthaane Sorry…\nHaayire Haayire… Ye Praana Haani Raani\nHaayire Haayire… Ika Emainaa Kaanee\nNinu Nimaraka Naa Puttaka Poorthavadhu Kadhaa Aliveni\nAa Korika Kadatheeragaa… Marujanma Endhuke Rani\nCome On… Come On\nCome On… Come On\nCome On… Come On\nCome On… Come On\nI Think I Did It Again\nI Think I Seen It Again…\nCome On… Come On\nCome On… Come On\nCheck It Up…\nCome On… Come On`, // From Gaana[](https://gaana.com/lyrics/chitti-nadumune)
+    imageUrl: 'https://telugureaders.com/wp-content/uploads/2023/10/chitti-nadumune-chusthunna-telugu-lyrical-song.jpg',
+  },
+  {
+    id: 'emantaro',
+    name: 'Emantaro',
+    movieId: 'gudumba-shankar',
+    youtubeId: 'D9kKAWZG4Gg',
+    lyrics: `Emantaro naaku neekunna idinee\nEmantaro nuvu nenaina adinee\nEmantaro maaripothunna kadhani\nEmantaro jaaripothunna mathini\nChuse pedavini maatade kanulani\nNavve nadakani kanipinche swaasani\nIchi puchukunna manasuni\nIdaa adaa yadavidhaa\nMari emantaro naaku neekunna idinee\nEmantaro nuvu nenaina adinee\nEmantaro maaripothunna kadhani\nEmantaro jaaripothunna mathini\nEduruga veluguthunna needani\nBeduruga kaluguthunna haayini ho ho\nThanuvuna tonukuthunna churukuni\nManasuna musurukunna chematani\nIshta kashtalani emantaro\nIpudemantaro\nEe mohamaatalani emantaro\nMari emantaro\nSwalpa bharaalani emantaro\nIpudemantaro\nSameepa dooraalani emantaro\nAsalemantaro\nJaare ningini doralaanti ee dongani\nPaade konguni parimalinche ranguni\nPonguthunna sudhaa gangani\nIdaa adaa ade idaa\nMari emantaro maaripothunna kadhani\nEmantaro jaaripothunna mathini\nJaabilai talukumanna chukkani\nBaadhyatai dorukuthunna hakkuni\nDevudai eduguthunna bhaktuni\nSootramai bigiyanunna saakshini\nPaathalo kotthani ipudemantaro\nPotlaatalo santhini mari emantaro\nTappulo oppuni emantaro\nIpudemantaro\nGatha janmalo appuni emantaro\nAsalemantaro\nNaalo nuvvuni ika neelo nenu ni\nMaake memani manadaare manadani\nRaasukunna aathma charitani\nAdaa idaa ide adaa\nMari emantaro naaku neekunna idinee\nEmantaro nuvu nenaina adinee\nEmantaro maaripothunna kadhani\nEmantaro jaaripothunna mathini`,
+    imageUrl: 'https://qqcdnpictest.mxplay.com/pic/5877c391d9ffe8a6ccb2491d6f1e92db/en/16x9/640x360/2a78cfed2e9ab8c7aedfa8380e63ad52_1080x608.png', // Romantic-themed
+  },
+  {
+    id: 'killi-killi',
+    name: 'Killi Killi',
+    movieId: 'gudumba-shankar',
+    youtubeId: 'TMqQMt9YljA',
+    lyrics: `Nabo Nabo Nabarigajulu\nNabo Nabo Nabarigajulu\nEthugolusulu Mukkupudakalu Nadumusanna Nagaraalu Evalerugani Baagotham\nAbo Abo Abo Abo Pedaparaga Tikkuki Ye Malli\nAvu Toda Lagajorr Suit Boot Soore Rome Jayaala\nGotra Ganja Laagi Peeki Peeki Laagi Eyy Kot Eyyy\nKilli Killi Killi Killi Namilaaka Bagunnadhe Naagamalli\nDudlistaa Inkoti Isthaava Mallii\nKilli Killi Killi Killi Namilaaka Bagunnadhe Naagamalli\nDudlistaa Inkoti Isthaava Mallii\nmattu Gundi Gammattugundhi Korikegasi Kotlaatanandhi\nKottukocche Nee Vaalu Soopu Kandhireegai Katestha Vundhi\nO Pilla Nee Killi Baagunnadhe O Pilla Nee Killi Bagunnadhe\nKilli Killi Killi Killi Namilaaka Bagunnadhe Naagamalli\nDudlistaa Inkoti Isthaava Mallii\nKilli Killi Killi Killi Namilaaka Bagunnadhe Naagamalli\nDudlistaa Inkoti Isthaava Mallii\nNallagonda Narusu Podhaamu Paaya Burusu\nNee Koraku Chesthaa Yentaina Karusu\nNaa Jebuloni Parasu Paresukundhi Manasu\nNee Medakesthaa Bangaaru Golusu\nNallagonda Narusu Podhaamu Paaya Burusu\nNee Koraku Chesthaa Yentaina Karusu\nNaa Jebuloni Parasu Paresukundhi Manasu\nNee Medakesthaa Bangaaru Golusu\nHaddhu Daati Muddisthaava Vaddu Vaadu Vudiki Chasthaadu Aagu\nAddaraathiri Aa Aataku Anumatistha Ee Pootaku\nO Pilla Nee Chorava Bagunandhe\nAaku Paaku Chittala Paaku Daamu Dhoomu Daya\nUskalakila Laalu Chaata Dekh Nikal Gaya\nAadu Bidda Aadu Ayya Mungitaadu Dabbulisthadaadu\nAadu Aadu Adu Adu Adu Adu Aaduu\nAadu Paadu Chindhulaadu O Pilla Pothe Malli Raadu Eedu\nVasthe Evaduntade Neeku Thodu\nAadu Paadu Chindhulaadu O Pilla Pothe Malli Raadu Eedu\nVasthe Evaduntade Neeku Thodu\nAadu Aadu Aadu Aadu Chindhulaadu\nAadu Aadu Aadu Aadu Chindhulaadu\nAadu Chindhulaadu Aadu Chindhulaadu`, // Placeholder
+    imageUrl: 'https://i.ytimg.com/vi/uEk7yEe0Ov0/maxresdefault.jpg', // Energetic, action-themed
+  },
+  {
+    id: 'le-le-lele',
+    name: 'Le Le Lele',
+    movieId: 'gudumba-shankar',
+    youtubeId: 'L_25duQqriU', 
+    lyrics: `Le Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\nVeelunte Cheemalle Lekunte Chiruthalle\nRendante Rendunnaayi Baatale\nAvunante Aakalle Lekunte Baakalle\nUntene Pothuntaayi Baadhale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\n\nChirugaalai Nuvvundaali Ninne Kavvisthunte\nSudigaalai Chutteyaali Le Le\nGodugalle Paricheyaali Ninne Kadhilisthunte\nPadagalle Panipattaali Le Le\nNeeralle Paaraalee Andhari Dhaaham Theerchaalee\nNeeralle Paaraalee Andhari Dhaaham Theerchaalee\nAnichesthe Muncheyaali Le\nNelalle Undaalee Andhari Bhaaram Moyaalee\nVisigisthe Bhuukampaale Choopaale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\n\nChedu Undhee Manchee Undhee Artham Vere Undhee\nCheddollaki Chedu Cheyyadame Manchee\nChedhundhi Theepi Undhee Bhedham Vere Undhee\nChedhannadhi Unnapudegaa Theepia\nEdamundhee Kudi Undhee\nKudi Edamayye Godavundhee\nEdamundhee Kudi Undhee\nKudi Edamayye Godavundhee\nEtukaina Gamyam Okate Le\nBrathukundhee Chaavundhee\nChachchedhaakaa Brathukundhee\nChachchaaka Brathikelaagaa Brathakaale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\nVeelunte Cheemalle Lekunte Chiruthalle\nRendante Rendunnaayi Baatale\nAvunante Aakalle Lekunte Baakalle\nUntene Pothuntaayi Baadhale`, // Placeholder
+    imageUrl: 'https://i.ytimg.com/vi/RPJTielBnDA/maxresdefault.jpg', // Fun, comedic vibe
   },
 ];

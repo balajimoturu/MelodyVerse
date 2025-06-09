@@ -56,6 +56,12 @@ export const movies: Movie[] = [
     languageId: 'telugu',
     imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-nHhvUO7RjYBvlwHr0pFajvlnuF4nAFzHJg&s',
   },
+  {
+    id: 'devotional-songs',
+    name: 'Devotional Songs',
+    languageId: 'others',
+    imageUrl: 'https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+  },
 ];
 
 export const songs: Song[] = [

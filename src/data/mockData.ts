@@ -62,6 +62,91 @@ export const movies: Movie[] = [
     languageId: 'others',
     imageUrl: 'https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
   },
+  {
+  id: "diljit-dosanjh",
+  name: "Diljit Dosanjh",
+  languageId: "punjabi",
+  imageUrl: "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIWgYU58WpvY/v2/-1x-1.webp"
+  },
+  {
+  id: "yo-yo-honey-singh",
+  name: "Yo Yo Honey Singh",
+  languageId: "punjabi",
+  imageUrl: "https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-tmkmflor1ivnldurponfmtv9m6-20171219104426.Medi.jpeg"
+  },
+  {
+  id: "ayushmann-khurrana",
+  name: "Ayushmann Khurrana",
+  languageId: "punjabi",
+  imageUrl: "https://images.indianexpress.com/2024/01/Bollywood-star-Ayushmann-Khurrana-1_1600.jpg"
+  },
+  {
+  id: "daler-mehndi",
+  name: "Daler Mehndi",
+  languageId: "punjabi",
+  imageUrl: "https://pearlentertainment.in/wp-content/uploads/classified-listing/2024/08/daler-mehndi.jpg"
+  },
+  {
+  id: "badshah",
+  name: "Badshah",
+  languageId: "punjabi",
+  imageUrl: "https://english.cdn.zeenews.com/sites/default/files/2020/08/06/877373-badshah.jpg?im=Resize=(1200,900)"
+  },
+  {
+  id: "hardy-sandhu",
+  name: "Hardy Sandhu",
+  languageId: "punjabi",
+  imageUrl: "https://static.iwmbuzz.com/wp-content/uploads/2022/09/from-harrdy-sandhu-to-guru-randhawa-punjabi-singers-look-handsome-hunks-in-suits-2.jpg"
+  },
+  {
+  "id": "falguni-pathak",
+  "name": "Falguni Pathak",
+  "languageId": "hindi",
+  "imageUrl": "https://lh3.googleusercontent.com/dMHNjJsORol8YL9JmixetWLcWdKjBh4_TQg7ZK9nFLrzlJ2yQZOh-mBwLFKAKWyxXe15R5ApnOP_pNQ-WxTRlrX781D4rHkVl3CM2t4VdQ=h450-rw"
+  },
+  {
+  "id": "96",
+  "name": "96",
+  "languageId": "tamil",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/1/1b/96_film_poster.jpg"
+  },
+  {
+  "id": "bojhena-shey-bojhena",
+  "name": "Bojhena Shey Bojhena",
+  "languageId": "bengali",
+  "imageUrl": "https://th.bing.com/th/id/R.589cd76bb817286609ad1689e5f1cd04?rik=siQzOlqy9wB5Aw&pid=ImgRaw&r=0"
+  },
+  {
+  "id": "gangster",
+  "name": "Gangster",
+  "languageId": "bengali",
+  "imageUrl": "https://assets-in.bmscdn.com/discovery-catalog/events/et00046032-mantryruxr-landscape.jpg"
+  },
+  {
+  "id": "kotigobba-2",
+  "name": "Kotigobba 2",
+  "languageId": "Kannada",
+  "imageUrl": "https://upload.wikimedia.org/wikipedia/en/e/e8/Kotigobba_2.jpg"
+  },
+  {
+  "id": "natasaarvabhowma",
+  "name": "Natasaarvabhowma",
+  "languageId": "Kannada",
+  "imageUrl": "https://i.pinimg.com/474x/f8/47/1f/f8471fb4b28931f78f68d79ff90e2f64.jpg"
+  },
+  {
+  "id": "velipadinte-pusthakam",
+  "name": "Velipadinte Pusthakam",
+  "languageId": "malayalam",
+  "imageUrl": "https://i.ytimg.com/vi/iwhyoW-kze4/maxresdefault.jpg"
+  },
+  {
+  "id": "stromae",
+  "name": "Stromae",
+  "languageId": "french",
+  "imageUrl": "https://shop.universalmusic.it/cdn/shop/files/2LP-01_4_b5ab7f9a-85a3-4dd5-b882-cf1d54ec6823.jpg?v=1741710478"
+  }
+
 ];
 
 export const songs: Song[] = [
@@ -145,4 +230,399 @@ export const songs: Song[] = [
     lyrics: `Le Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\nVeelunte Cheemalle Lekunte Chiruthalle\nRendante Rendunnaayi Baatale\nAvunante Aakalle Lekunte Baakalle\nUntene Pothuntaayi Baadhale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\n\nChirugaalai Nuvvundaali Ninne Kavvisthunte\nSudigaalai Chutteyaali Le Le\nGodugalle Paricheyaali Ninne Kadhilisthunte\nPadagalle Panipattaali Le Le\nNeeralle Paaraalee Andhari Dhaaham Theerchaalee\nNeeralle Paaraalee Andhari Dhaaham Theerchaalee\nAnichesthe Muncheyaali Le\nNelalle Undaalee Andhari Bhaaram Moyaalee\nVisigisthe Bhuukampaale Choopaale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\n\nChedu Undhee Manchee Undhee Artham Vere Undhee\nCheddollaki Chedu Cheyyadame Manchee\nChedhundhi Theepi Undhee Bhedham Vere Undhee\nChedhannadhi Unnapudegaa Theepia\nEdamundhee Kudi Undhee\nKudi Edamayye Godavundhee\nEdamundhee Kudi Undhee\nKudi Edamayye Godavundhee\nEtukaina Gamyam Okate Le\nBrathukundhee Chaavundhee\nChachchedhaakaa Brathukundhee\nChachchaaka Brathikelaagaa Brathakaale\n\nLe Le Le Le Ivvaale Le Le\nLe Le Le Le Ee Rojalle Le Le\nVeelunte Cheemalle Lekunte Chiruthalle\nRendante Rendunnaayi Baatale\nAvunante Aakalle Lekunte Baakalle\nUntene Pothuntaayi Baadhale`, // Placeholder
     imageUrl: 'https://i.ytimg.com/vi/RPJTielBnDA/maxresdefault.jpg',
   },
+  {
+    "id": "proper-patola",
+    "name": "Proper Patola",
+    "movieId": "diljit-dosanjh",
+    "youtubeId": "nCD2hj6zJEc",
+    "lyrics": "Ho Proper Patola, Ni Tu Proper Patola\nSong about a stylish and confident girl.",
+    "imageUrl": "https://i.ytimg.com/vi/nCD2hj6zJEc/maxresdefault.jpg"
+  },
+  {
+    "id": "g-o-a-t",
+    "name": "G.O.A.T",
+    "movieId": "diljit-dosanjh",
+    "youtubeId": "Qv6f7ZqZr9M",
+    "lyrics": "Main taan G.O.A.T, G.O.A.T\nDiljit calls himself the 'Greatest Of All Time' in this self-anthem.",
+    "imageUrl": "https://i.ytimg.com/vi/Qv6f7ZqZr9M/maxresdefault.jpg"
+  },
+  {
+    "id": "5-taara",
+    "name": "5 Taara",
+    "movieId": "diljit-dosanjh",
+    "youtubeId": "MsTW5cyWKj4",
+    "lyrics": "5 Taara diyan kudiyaan, 5 Taara diyan\nA peppy romantic track about five-star girls.",
+    "imageUrl": "https://i.ytimg.com/vi/a5G2b6sQfVw/maxresdefault.jpg"
+  },
+  {
+    "id": "laembadgini",
+    "name": "Laembadgini",
+    "movieId": "diljit-dosanjh",
+    "youtubeId": "15Sjjl_24x0",
+    "lyrics": "Laembadgini chalayi jande o\nFun song about driving a fancy car.",
+    "imageUrl": "https://i.ytimg.com/vi/0Xwz1J-9Uq8/maxresdefault.jpg"
+  },
+  {
+    "id": "do-you-know",
+    "name": "Do You Know",
+    "movieId": "diljit-dosanjh",
+    "youtubeId": "8Fbwzfjtz5g",
+    "lyrics": "Do you know, main tainu kinna pyaar karda\nA romantic confession of love.",
+    "imageUrl": "https://i.ytimg.com/vi/8Fbwzfjtz5g/maxresdefault.jpg"
+  },
+  {
+    "id": "blue-eyes",
+    "name": "Blue Eyes",
+    "movieId": "yo-yo-honey-singh",
+    "youtubeId": "nqye02H_H6I",
+    "lyrics": "Blue eyes hypnotize teri kardi ai menu\nA club banger about a mesmerizing girl.",
+    "imageUrl": "https://i.ytimg.com/vi/nqye02H_H6I/maxresdefault.jpg"
+  },
+  {
+    "id": "love-dose",
+    "name": "Love Dose",
+    "movieId": "yo-yo-honey-singh",
+    "youtubeId": "nJk6F3j6wXo",
+    "lyrics": "Tenu black dress vich dekh ke\nA flirty, catchy track with signature Honey Singh beats.",
+    "imageUrl": "https://i.ytimg.com/vi/nJk6F3j6wXo/maxresdefault.jpg"
+  },
+  {
+    "id": "high-heels",
+    "name": "High Heels",
+    "movieId": "yo-yo-honey-singh",
+    "youtubeId": "1wZVqGzK2rY",
+    "lyrics": "High heels te nache\nA dance number featuring Jaz Dhami.",
+    "imageUrl": "https://i.ytimg.com/vi/1wZVqGzK2rY/maxresdefault.jpg"
+  },
+  {
+    "id": "brown-rang",
+    "name": "Brown Rang",
+    "movieId": "yo-yo-honey-singh",
+    "youtubeId": "vX2cDW8LUWk",
+    "lyrics": "Brown rang de munde, blue eyes wali\nA song appreciating brown-skinned girls.",
+    "imageUrl": "https://i.ytimg.com/vi/vX2cDW8LUWk/maxresdefault.jpg"
+  },
+  {
+    "id": "pani-da-rang",
+    "name": "Pani Da Rang",
+    "movieId": "ayushmann-khurrana",
+    "youtubeId": "m2q2xJzQ4sY",
+    "lyrics": "Pani da rang vekh ke, akhiyan jo hanju rul de\nA soulful romantic track from 'Vicky Donor'.",
+    "imageUrl": "https://i.ytimg.com/vi/m2q2xJzQ4sY/maxresdefault.jpg"
+  },
+  {
+    "id": "mitti-di-khushboo",
+    "name": "Mitti Di Khushboo",
+    "movieId": "ayushmann-khurrana",
+    "youtubeId": "p1F6kK6XG2w",
+    "lyrics": "Mitti di khushboo aayi, te mainu yaad teri aayi\nA nostalgic song about memories and love.",
+    "imageUrl": "https://i.ytimg.com/vi/p1F6kK6XG2w/maxresdefault.jpg"
+  },
+  {
+    "id": "nazm-nazm",
+    "name": "Nazm Nazm",
+    "movieId": "ayushmann-khurrana",
+    "youtubeId": "p4qN9pONZcE",
+    "lyrics": "Nazm nazm sa mere, honton pe thehar tu\nA poetic love ballad from 'Bareilly Ki Barfi'.",
+    "imageUrl": "https://i.ytimg.com/vi/p4qN9pONZcE/maxresdefault.jpg"
+  },
+  {
+    "id": "saadi-gali-aaja",
+    "name": "Saadi Gali Aaja",
+    "movieId": "ayushmann-khurrana",
+    "youtubeId": "kGxUqj1k3dY",
+    "lyrics": "Saadi gali aaja, nach ke dikha ja\nA fun and peppy song from 'Nautanki Saala!'.",
+    "imageUrl": "https://i.ytimg.com/vi/kGxUqj1k3dY/maxresdefault.jpg"
+  },
+  {
+    "id": "yahin-hoon-main",
+    "name": "Yahin Hoon Main",
+    "movieId": "ayushmann-khurrana",
+    "youtubeId": "uT6TzBYDDiA",
+    "lyrics": "Yahin hoon main, yahin hoon main\nA song about waiting and longing.",
+    "imageUrl": "https://i.ytimg.com/vi/uT6TzBYDDiA/maxresdefault.jpg"
+  },
+  {
+    "id": "tunak-tunak-tun",
+    "name": "Tunak Tunak Tun",
+    "movieId": "daler-mehndi",
+    "youtubeId": "vTIIMJ9tUc8",
+    "lyrics": "Tunak tunak tun, tunak tunak tun, tun da da da\nThe iconic, viral Bhangra song.",
+    "imageUrl": "https://i.ytimg.com/vi/vTIIMJ9tUc8/maxresdefault.jpg"
+  },
+  {
+    "id": "bolo-ta-ra-ra",
+    "name": "Bolo Ta Ra Ra",
+    "movieId": "daler-mehndi",
+    "youtubeId": "yX2-4JZ9XzE",
+    "lyrics": "Bolo ta ra ra ra, bolo ta ra ra ra\nA high-energy Bhangra classic.",
+    "imageUrl": "https://i.ytimg.com/vi/yX2-4JZ9XzE/maxresdefault.jpg"
+  },
+  {
+    "id": "ho-jayegi-balle-balle",
+    "name": "Ho Jayegi Balle Balle",
+    "movieId": "daler-mehndi",
+    "youtubeId": "f9r4vUe9v8A",
+    "lyrics": "Ho jayegi balle balle\nA festive song perfect for celebrations.",
+    "imageUrl": "https://i.ytimg.com/vi/f9r4vUe9v8A/maxresdefault.jpg"
+  },
+  {
+    "id": "na-na-na-na-na-re",
+    "name": "Na Na Na Na Na Re",
+    "movieId": "daler-mehndi",
+    "youtubeId": "u1b8k4q4wqY",
+    "lyrics": "Na na na na na re, na re na re\nA fun, rhythmic track.",
+    "imageUrl": "https://i.ytimg.com/vi/u1b8k4q4wqY/maxresdefault.jpg"
+  },
+  {
+    "id": "rang-de-basanti",
+    "name": "Rang De Basanti",
+    "movieId": "daler-mehndi",
+    "youtubeId": "Qq5b0wFMhyI",
+    "lyrics": "Rang de basanti, chola mera\nPatriotic anthem from the movie 'Rang De Basanti'.",
+    "imageUrl": "https://i.ytimg.com/vi/Qq5b0wFMhyI/maxresdefault.jpg"
+  },
+  {
+    "id": "genda-phool",
+    "name": "Genda Phool",
+    "movieId": "badshah",
+    "youtubeId": "6vYnas6q3Sg",
+    "lyrics": "Boron tolo lo lo, genda phool\nA fusion of Bengali folk and Punjabi rap.",
+    "imageUrl": "https://i.ytimg.com/vi/6vYnas6q3Sg/maxresdefault.jpg"
+  },
+  {
+    "id": "paagal",
+    "name": "Paagal",
+    "movieId": "badshah",
+    "youtubeId": "pRDgH1bIiKs",
+    "lyrics": "Main paagal ho gaya\nA party anthem with catchy beats.",
+    "imageUrl": "https://i.ytimg.com/vi/pRDgH1bIiKs/maxresdefault.jpg"
+  },
+  {
+    "id": "dj-wale-babu",
+    "name": "DJ Wale Babu",
+    "movieId": "badshah",
+    "youtubeId": "d1tQFX_6K0A",
+    "lyrics": "DJ wale babu mera gaana chala do\nA club favorite featuring Aastha Gill.",
+    "imageUrl": "https://i.ytimg.com/vi/d1tQFX_6K0A/maxresdefault.jpg"
+  },
+  {
+    "id": "kar-gayi-chull",
+    "name": "Kar Gayi Chull",
+    "movieId": "badshah",
+    "youtubeId": "6p-lDYPR2P8",
+    "lyrics": "Chull, chull, chull\nA Bollywood hit from 'Kapoor & Sons'.",
+    "imageUrl": "https://i.ytimg.com/vi/6p-lDYPR2P8/maxresdefault.jpg"
+  },
+  {
+    "id": "mercy",
+    "name": "Mercy",
+    "movieId": "badshah",
+    "youtubeId": "Jyst8oIHOAY",
+    "lyrics": "Girl you got me mercy, mercy, mercy\nA trendy dance track with international vibes.",
+    "imageUrl": "https://i.ytimg.com/vi/Jyst8oIHOAY/maxresdefault.jpg"
+  },
+  {
+    "id": "backbone",
+    "name": "Backbone",
+    "movieId": "hardy-sandhu",
+    "youtubeId": "0h8R5p3qv0I",
+    "lyrics": "Teri yaari meri backbone\nA romantic song about love and support.",
+    "imageUrl": "https://i.ytimg.com/vi/0h8R5p3qv0I/maxresdefault.jpg"
+  },
+  {
+    "id": "soch",
+    "name": "Soch",
+    "movieId": "hardy-sandhu",
+    "youtubeId": "nKz9O8K2f1Q",
+    "lyrics": "Soch na sake, tujhko kitna chahte hain hum\nA soulful ballad about deep love.",
+    "imageUrl": "https://i.ytimg.com/vi/nKz9O8K2f1Q/maxresdefault.jpg"
+  },
+  {
+    "id": "naah",
+    "name": "Naah",
+    "movieId": "hardy-sandhu",
+    "youtubeId": "h1zZV3k2n1g",
+    "lyrics": "Naah, main nahi karna pyar\nA catchy breakup song with dance beats.",
+    "imageUrl": "https://i.ytimg.com/vi/h1zZV3k2n1g/maxresdefault.jpg"
+  },
+  {
+    "id": "kya-baat-ay",
+    "name": "Kya Baat Ay",
+    "movieId": "hardy-sandhu",
+    "youtubeId": "X9XK8Xx8Xx8",
+    "lyrics": "Kya baat ay, kya baat ay\nA flirty, upbeat Punjabi hit.",
+    "imageUrl": "https://i.ytimg.com/vi/X9XK8Xx8Xx8/maxresdefault.jpg"
+  },
+  {
+    "id": "horn-blow",
+    "name": "Horn Blow",
+    "movieId": "hardy-sandhu",
+    "youtubeId": "z1p8p3c7Qp8",
+    "lyrics": "Jadon car horn blow kardi\nA fun song about a girl who turns heads.",
+    "imageUrl": "https://i.ytimg.com/vi/z1p8p3c7Qp8/maxresdefault.jpg"
+  },
+  {
+    "id": "maine-payal-hai-chhankai",
+    "name": "Maine Payal Hai Chhankai",
+    "movieId": "falguni-pathak",
+    "youtubeId": "Qm2xX2Q9ZbY",
+    "lyrics": "Maine payal hai chhankai, doli saja ke aayi re\nIconic Hindi pop song celebrating festive and romantic vibes.",
+    "imageUrl": "https://m.timesofindia.com/photo/65035349/size-146576/65035349.jpg"
+  },
+  {
+    "id": "yaad-piya-ki-aane-lagi",
+    "name": "Yaad Piya Ki Aane Lagi",
+    "movieId": "falguni-pathak",
+    "youtubeId": "oG1R6ZzW9fU",
+    "lyrics": "Yaad piya ki aane lagi, aise jaise bechaini ho\nRomantic Hindi pop hit that gained massive popularity in the late 90s.",
+    "imageUrl": "https://st1.bollywoodlife.com/wp-content/uploads/2013/10/Yaad-piya-ki.jpg"
+  },
+  {
+    "id": "meri-chunar-udd-udd-jaye",
+    "name": "Meri Chunar Udd Udd Jaye",
+    "movieId": "falguni-pathak",
+    "youtubeId": "WmK0v7k2L0Y",
+    "lyrics": "Meri chunar udd udd jaye, aaja re aaja re\nA soulful Hindi song with emotional depth.",
+    "imageUrl": "https://i.ytimg.com/vi/p9r2GxMlRD4/maxresdefault.jpg"
+  },
+  {
+    "id": "o-piya",
+    "name": "O Piya",
+    "movieId": "falguni-pathak",
+    "youtubeId": "x6zQH0uYzRA",
+    "lyrics": "O piya, o piya, o piya re\nA melodious Hindi pop track loved for its soothing rhythm.",
+    "imageUrl": "https://i.ytimg.com/vi/GuXZxK-Y56I/maxresdefault.jpg"
+  },
+  {
+    "id": "kaathalae-kaathalae",
+    "name": "Kaathalae Kaathalae",
+    "movieId": "96",
+    "youtubeId": "8rIqcrSTnW8",
+    "lyrics": "Kaathalae kaathalae kaadhaley kaadhaley\nEn nenjil adithidum ragangaley\nKaathalae kaathalae un kural ketkudhae\nUn mugam paarkudhae\nUn kai pidikkudhae\nUn kangal moodudhae\nUn kangal moodudhae\nUn kaadhal mattume vaazhndhadhae\nUn kaadhal mattume theendudhae\nUn thunai mattume thevaya\nInimel naanum naanum illaye",
+    "imageUrl": "https://i.ytimg.com/vi/8rIqcrSTnW8/maxresdefault.jpg"
+  },
+  {
+    "id": "the-life-of-ram",
+    "name": "The Life of Ram",
+    "movieId": "96",
+    "youtubeId": "psi5C9WM3i0",
+    "lyrics": "Ram endra peyar ketka\nEn nenju adhigam thudikkudhey\nVazhkaiyil naanum thedugirain\nUnarvugalil naanum theerkiren\nTheeratha kaadhal kaadhal illa\nThunai thunai naanum alla\nNee solla vaithadhu poi alla\nIthayam thirakkudhu poi illa\nVizhiyil vizhiyin silirpu\nVizhiyil vizhiyin nigazhvu\nIthu theerkadha kadhaigal pola\nIdhayathil thodangudhae",
+    "imageUrl": "https://i.ytimg.com/vi/psi5C9WM3i0/maxresdefault.jpg"
+  },
+  {
+    "id": "vasantha-kaalangal",
+    "name": "Vasantha Kaalangal",
+    "movieId": "96",
+    "youtubeId": "KZZLqoRuuHw",
+    "lyrics": "Vasantha kaalangal vandhaal\nMella mella enathu ulagil\nOru kaadhal ninaivugal thandhaal\nAdhai marakka mudiyumaa\nVizhigalil ezhudhiya kaadhal\nManadhil izhuthida yaarum\nPudhiya oru uruvam padaikkum\nAlaigal pol aval kaadhalum",
+    "imageUrl": "https://i.ytimg.com/vi/KZZLqoRuuHw/maxresdefault.jpg"
+  },
+  {
+    "id": "iravingu-theevai",
+    "name": "Iravingu Theevai",
+    "movieId": "96",
+    "youtubeId": "iuSxkhHWk-M",
+    "lyrics": "Iravingu theevai idhayathil unakku\nIravu irundhaalum un nilavaga\nIrudhi thunai naanum irundhaal\nInbamum koodave varumaa\nIthu oru kathai alla kadhal\nIthu oru nilai alla rasam\nNinaivadhae naanum irundhaal\nUn arugil naanum varuven",
+    "imageUrl": "https://i.ytimg.com/vi/iuSxkhHWk-M/maxresdefault.jpg"
+  },
+  {
+    "id": "anthaathi",
+    "name": "Anthaathi",
+    "movieId": "96",
+    "youtubeId": "r0synl-lI4I",
+    "lyrics": "Anthaathi anthaathi naan allavaa\nThodangina pinbum mudivillaiyaa\nAnbae en anbae naan thedi vandhaen\nNeeyum naanum serndha varai\nYaarum illai indha ulagil\nNaan solla ninaikkiren\nUn idhayam kettu paarkiren\nKadhalin oru moham\nKaviyaana kaatchigal",
+    "imageUrl": "https://i.ytimg.com/vi/r0synl-lI4I/maxresdefault.jpg"
+  },
+  {
+    "id": "bojhena-shey-bojhena",
+    "name": "Bojhena Shey Bojhena",
+    "movieId": "bojhena-shey-bojhena",
+    "youtubeId": "azLiK9wdxl8",
+    "lyrics": "Boro icche korche daakte tar gondhey mekhe thakte\nKeno sondhey sondhey naamle se palay\nTake aatke rakhar chesta aro bariye dicche teshta\nAmi dariye dekchi seshta janlaay\nBojhena se bojhena bojhena se bojhe na\nPaay shopno shopno logney tar onno onno daaknam",
+    "imageUrl": "https://i.ytimg.com/vi/azLiK9wdxl8/maxresdefault.jpg"
+  },
+  {
+    "id": "na-re-na",
+    "name": "Na Re Na",
+    "movieId": "bojhena-shey-bojhena",
+    "youtubeId": "azLiK9wdxl8",
+    "lyrics": "Na re na re na re re na na na re\nDheere dheere bole na na re na re na",
+    "imageUrl": "https://i.ytimg.com/vi/azLiK9wdxl8/maxresdefault.jpg"
+  },
+  {
+    "id": "bhogoban",
+    "name": "Bhogoban",
+    "movieId": "bojhena-shey-bojhena",
+    "youtubeId": "HSxY0WYP9A4",
+    "lyrics": "Hay bhogoban ei maya golaay keno bhese jai\nTumi kothay tumi kothay gelo sob shone jai",
+    "imageUrl": "https://i.ytimg.com/vi/HSxY0WYP9A4/maxresdefault.jpg"
+  },
+  {
+    "id": "saajna-female-version",
+    "name": "Saajna (Female)",
+    "movieId": "bojhena-shey-bojhena",
+    "youtubeId": "??UNKNOWN??",
+    "lyrics": "Saajna, saajna, tumi aasna roshnee jakhon chhai\nMon bhore jai tomay bhule ami bhaabi na",
+    "imageUrl": "https://i.ytimg.com/vi/??UNKNOWN??/maxresdefault.jpg"
+  },
+  {
+    "id": "thik-emon-ebhabe",
+    "name": "Thik Emon Ebhabe",
+    "movieId": "gangster",
+    "youtubeId": "K_rE__FCz0I",
+    "lyrics": "Thik emon ebhabe tumi amar hater hate\nChere diba na koto daka debo rate",
+    "imageUrl": "https://i.ytimg.com/vi/K_rE__FCz0I/maxresdefault.jpg"
+  },
+  {
+    "id": "tomake-chai",
+    "name": "Tomake Chai",
+    "movieId": "gangster",
+    "youtubeId": "1f18irP--O8",
+    "lyrics": "Tomar namer roddure ami dubechi somuddure\nJodi shotti jante chao tomake chai tomake chai",
+    "imageUrl": "https://i.ytimg.com/vi/1f18irP--O8/maxresdefault.jpg"
+  },
+  {
+  "id": "saaluthillave",
+  "name": "Saaluthillave",
+  "movieId": "kotigobba-2",
+  "youtubeId": "rTrEPa66Hvo",
+  "lyrics": "ಸಾಲುತಿಲ್ಲವೆ ಸಾಲುತಿಲ್ಲವೆ\nನಿನ್ನ ಹಾಗೆ ಮತ್ತು ಬೇರೆ ಇಲ್ಲವೇ\nಒಂದೇ ಸಮನೆ ನಿನ್ನ ನೋಡುತಿದ್ದ ಮೇಲೂ\nಉಸಿರು ಉಸಿರು ಬೆಸೆದ ಮೇಲೂ\nಮುಂಜಾನೆ ನನ್ನ ಪಾಲಿಗಂತೂ ಸಾಲೋಲ್ಲ\nನಿಘಂಟು ಪದಗಳೇ ಸಾಲೋದಿಲ್ಲ\nಏಳು ಸ್ವರವು ಮುಗಿದ ಮೇಲೂ ಕಾಡುವಂಥ\nನನ್ನ ನಿನ್ನ ಯುಗಗಳ ಗೀತೆ ಮುಗಿಯೋದಿಲ್ಲ\nಶ್ವಾಸದಲ್ಲಿ ನೀನು ವಾಸವಿದ್ದ ಮೇಲೂ\nಹಾಡು ಮುಗಿದು ಹೋದ ಮೇಲೂ ಮೌನ ತುಂಬಿ ಬಂದ ಮೇಲೂ",
+  "imageUrl": "https://i.ytimg.com/vi/rTrEPa66Hvo/maxresdefault.jpg"
+  },
+  {
+    "id": "yaaro-naanu",
+    "name": "Yaaro Naanu",
+    "movieId": "natasaarvabhowma",
+    "youtubeId": "uvMAUAKivio",
+    "lyrics": "Yaaro naanu yaaro naanu ninna olavalu beda\nEe manasina raagu yaaru kande yaaru beda\nKanneeru kaalu atta naale nodi oh\nNeeve nenape ninna kannu ninna haadu",
+    "imageUrl": "https://i.ytimg.com/vi/uvMAUAKivio/maxresdefault.jpg"
+  },
+  {
+    "id": "tajaa-samachara",
+    "name": "Tajaa Samachara",
+    "movieId": "natasaarvabhowma",
+    "youtubeId": "oFUmyHA1hD4",
+    "lyrics": "Tajaa samachara nanna hrudayadalli vibha\nTajaa samachara ninna hrudayadalli lava\nKanneeru maribeda ee gaali ninna hesaru\nEe gaali madari ninna kaige baribeku banda",
+    "imageUrl": "https://i.ytimg.com/vi/oFUmyHA1hD4/maxresdefault.jpg"
+  },
+  {
+  "id": "entammede-jimikki-kammal",
+  "name": "Entammede Jimikki Kammal",
+  "movieId": "velipadinte-pusthakam",
+  "youtubeId": "FXiaIH49oAU",
+  "lyrics": "എന്റമ്മേടെ ജിമിക്കി കമ്മൽ എന്റപ്പൻ കട്ടോണ്ടു പോയേ\nഎന്റപ്പന്റെ ബ്രാണ്ടിക്കുപ്പി എന്റമ്മ കുടിച്ചു തീർത്തേ\nഇവിടൊരു ചാക്കരയും വേലകളീം ഒത്തുവന്നപോൽ\nചിലരുടെ തോർത്തുകൊതിച്ച കാര്യം ഓർത്തുപോകവേ\nനിങ്ങളുടെ പ്രിയഗാനങ്ങളിലേയ്ക്ക് ചേർക്കൂ",
+  "imageUrl": "https://i.ytimg.com/vi/FXiaIH49oAU/maxresdefault.jpg"
+  },
+  {
+  "id": "papaoutai",
+  "name": "Papaoutai",
+  "movieId": "stromae",
+  "youtubeId": "oiKj0Z_Xnjc",
+  "lyrics": "",
+  "imageUrl": "https://i.ytimg.com/vi/oiKj0Z_Xnjc/maxresdefault.jpg"
+}
+
+
+
 ];

@@ -44,7 +44,7 @@ const MovieSelection: React.FC = () => {
     <div>
       <div className="mb-8">
         <h1 className="mb-2">{languageName} Movies</h1>
-        <p className="text-gray-600">Select a movie to browse songs</p>
+        <p className="text-gray-600">Select an album to browse songs</p>
       </div>
       
       {movies.length > 0 ? (
